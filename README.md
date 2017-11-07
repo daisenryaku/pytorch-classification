@@ -2,7 +2,7 @@
 
 Image Classification architectures implemented in PyTorch. Support MNIST, CIFAR10, ImageNet dataset.
 
-Support [LeNet](#lenet-paper), [AlexNet](#alexnet-paper).
+Support [LeNet](#lenet-paper), [AlexNet](#alexnet-paper), [VGG](#vgg-paper), [ResNet](#resnet-paper), [DenseNet](#densenet-paper).
 
 ## Requirements
 * torch
@@ -37,4 +37,16 @@ python main.py test
 
 <a id = 'alexnet-paper'>
 [2]Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networks[C]//Advances in neural information processing systems. 2012: 1097-1105.
+<br>
+
+<a id = 'vgg-paper'>
+[3]Simonyan K, Zisserman A. Very deep convolutional networks for large-scale image recognition[J]. arXiv preprint arXiv:1409.1556, 2014.
+<br>
+
+<a id = 'resnet-paper'>
+[4]He K, Zhang X, Ren S, et al. Deep residual learning for image recognition[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2016: 770-778.
+<br>
+
+<a id = 'densenet-paper'>
+[5]Huang G, Liu Z, Weinberger K Q, et al. Densely connected convolutional networks[J]. arXiv preprint arXiv:1608.06993, 2016.
 <br>
