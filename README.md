@@ -2,7 +2,7 @@
 
 Image Classification architectures implemented in PyTorch. Support MNIST, CIFAR10, ImageNet dataset.
 
-Support [LeNet](#lenet-paper).
+Support [LeNet](#lenet-paper), [AlexNet](#alexnet-paper).
 
 ## Requirements
 * torch
@@ -31,6 +31,10 @@ python main.py test
 ```
 
 ## Citations
-<a id= 'lenet-paper'>
+<a id = 'lenet-paper'>
 [1]LeCun Y, Boser B E, Denker J S, et al. Handwritten digit recognition with a back-propagation network[C]//Advances in neural information processing systems. 1990: 396-404.
+<br>
+
+<a id = 'alexnet-paper'>
+[2]Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networks[C]//Advances in neural information processing systems. 2012: 1097-1105.
 <br>

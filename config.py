@@ -3,16 +3,16 @@ import warnings
 from torchvision import transforms
 
 class DefaultConfig(object):
-    dataset_name = 'imagenet'
-    data_path = '/home/z/classification_data/imagenet/'
+    dataset_name = 'cifar10'
+    data_path = '/home/z/classification_data/cifar10/'
     in_channels = 3
-    img_rows = 224
-    num_classes = 2
-    model_name = 'AlexNet'
+    img_rows = 32
+    num_classes = 10
+    model_name = 'VGG'
     model_save_path = 'checkpoints/AlexNet_1107_09:28.ckpt'
     
-    batch_size = 32
-    test_batch_size = 32
+    batch_size = 1
+    test_batch_size = 1
     lr = 1e-2
     momentum = 0.5
     max_epochs = 5

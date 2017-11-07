@@ -5,7 +5,7 @@ from torch.autograd import Variable
 from .BasicModule import BasicModule
 
 class AlexNet(BasicModule):
-    def __init__(self, in_channels=3, img_rows=224, num_classes=10):
+    def __init__(self, in_channels=3, img_rows=224, num_classes=2):
         super(AlexNet, self).__init__()
         self.model_name = 'AlexNet'
         self.out_rows1 = (img_rows-7)/4+1
