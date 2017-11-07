@@ -3,19 +3,20 @@ import warnings
 from torchvision import transforms
 
 class DefaultConfig(object):
-    dataset_name = 'mnist'
-    data_path = '/home/z/classification_data/mnist/'
-    img_rows = 28
-    num_classes = 10
-    model_name = 'LeNet'
-    model_save_path = 'checkpoints/LeNet_1106_22:05.ckpt'
+    dataset_name = 'imagenet'
+    data_path = '/home/z/classification_data/imagenet/'
+    in_channels = 3
+    img_rows = 224
+    num_classes = 2
+    model_name = 'AlexNet'
+    model_save_path = 'checkpoints/AlexNet_1107_09:28.ckpt'
     
-    batch_size = 128
-    test_batch_size = 1000
+    batch_size = 32
+    test_batch_size = 32
     lr = 1e-2
-    max_epochs = 10
     momentum = 0.5
-    save_freq = 10
+    max_epochs = 5
+    save_freq = 5
 
     def parse(self, kwargs):
         for k, v in kwargs.iteritems():

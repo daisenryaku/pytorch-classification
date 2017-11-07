@@ -1,6 +1,6 @@
 # pytorch-classification
 
-Classification on MNIST dataset with Pytorch.
+Image Classification architectures implemented in PyTorch. Support MNIST, CIFAR10, ImageNet dataset.
 
 Support [LeNet](#lenet-paper).
 
@@ -16,7 +16,9 @@ sudo pip install -r requirements.txt
 ```
 
 ## Setup data
-Open **config.py**, change the **dataset_name**, **data_path**, **model_name** .
+For MNIST and CIFAR10 dataset: open **config.py**, change the **dataset_name**, **data_path**, **model_name** .
+
+For ImageNet dataset: download the ImageNet dataset and move validation images to labeled subfolders. See [this](https://github.com/facebook/fb.resnet.torch/blob/master/INSTALL.md#download-the-imagenet-dataset)
 
 ## Train model
 ```bash
